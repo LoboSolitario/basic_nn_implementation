@@ -7,3 +7,6 @@ In forward propagation, first the activation for each neuron in hidden layer is 
 In back propagation, firstly the error is calculated for each neuron in the output layer and then the error is propagated backwards and then again the steps are repeated for the previous layer.
 
 In training the network, I updated the weights according to the error calculated in the previous step and gave the output of the error after each epoch.The cost gradually decreases and shows that the network is learning
+
+REFERENCES:
+https://machinelearningmastery.com/implement-backpropagation-algorithm-scratch-python/
